@@ -1,0 +1,13 @@
+lst=[15,16,28,39,22,44,87,90,48,37]
+# read elemet from comsole amd check present or not
+n=int(input('enter the number'))
+flag=0
+for i in lst:
+       if(i==n):
+           flag=1
+           break
+
+if (flag>0):
+      print('element found')
+else:
+      print('not found')
